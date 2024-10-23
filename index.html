@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#loja-section" class="active">Loja</a></li>
+                <li><a href="#">Lugares</a></li>
+                <li><a href="#">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal con imagen de fondo -->
+    <section class="hero">
+        <img src="img/menu1.jpg" alt="Loja" class="background-image">
+    </section>
+
+    <!-- Sección Loja con una nueva imagen de fondo -->
+    <section id="loja-section" class="loja-info">
+        <img src="img/lojaBack.webp" alt="Fondo Loja" class="background-image-loja">
+        <div class="hero-text">
+            <h1>Bienvenidos a Loja:</h1>
+            <h2><span class="highlight">La cuna</span> de la cultura nacional</h2>
+            <div class="info-boxes">
+                <div class="box">900 000<br>Turistas por año</div>
+                <div class="box">4th<br>Mejor ciudad de Ecuador</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Por qué Loja con imagen de fondo -->
+    <section class="porque-loja">
+        <!-- Imagen de fondo agregada en el HTML -->
+        <img src="img/fondo2.webp" alt="Fondo de Por Qué Loja" class="background-image-fondo2">
+        
+        <div class="info-stats">
+            <div class="stat-box">
+                <strong>900 000</strong><br>Turistas por año
+            </div>
+            <div class="stat-box">
+                <strong>4th</strong><br>Mejor ciudad de Ecuador
+            </div>
+            <div class="stat-box">
+                <strong>3</strong><br>Millones al año invertidos en turismo
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image-gallery">
+                <img src="img/eolico.jpg" alt="Eólicos">
+                <img src="img/basilica.jpg" alt="Basílica">
+                <img src="img/lago.jpg" alt="Parque">
+                <img src="img/lourdes.jpg" alt="Calle Lourdes">
+                <img src="img/jipiro.jpg" alt="Parque Jipiro">
+            </div>
+
+            <div class="porque-loja-text">
+                <h2>Por qué <span class="highlight">Loja?</span></h2>
+                <p>
+                    Loja es un destino que te invita a descubrir su rica historia, vibrante cultura y asombrosa belleza natural. 
+                    Conocida como la "Capital Musical y Cultural del Ecuador". Desde sus encantadoras calles coloniales hasta sus impresionantes paisajes en el Parque Nacional Podocarpus, cada rincón de esta ciudad cuenta una historia única.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="explorar-section" class="explorar">
+    <div class="explorar-title">
+        <h2><span class="highlight">Lugares</span> para Explorar</h2>
+    </div>
+
+    <div class="explorar-content">
+        <input type="radio" name="place" id="jipiro" checked>
+        <input type="radio" name="place" id="basilica">
+
+        <div class="explorar-box">
+            <!-- Sección Jipiro -->
+            <div class="explorar-item" id="jipiro-box">
+                <img src="img/jipiro.jpg" alt="Parque Jipiro" class="explorar-image">
+                <div class="explorar-text">
+                    <h3>Parque recreacional Jipiro</h3>
+                    <p>
+                        En este paradisíaco parque, se encuentran las réplicas arquitectónicas representativas 
+                        de las facetas etno-culturales de la humanidad, construyendo un pequeño lugar en el que 
+                        la diversidad cultural se mezcla con la biodiversidad de la región.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sección Basílica -->
+            <div class="explorar-item" id="basilica-box">
+                <img src="img/basilica.jpg" alt="Basílica de la Virgen El Cisne" class="explorar-image">
+                <div class="explorar-text">
+                    <h3>Basílica de la Virgen El Cisne</h3>
+                    <p>
+                        Este importante santuario católico fue construido entre 1934 y 1978, este impresionante templo 
+                        de estilo gótico es conocido por albergar la venerada imagen de la Virgen del Cisne, tallada 
+                        en cedro en el siglo XVI.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="explorar-nav">
+            <label for="jipiro" class="nav-btn left-nav">&#8249;</label>
+            <label for="basilica" class="nav-btn right-nav">&#8250;</label>
+        </div>
+    </div>
+</section>
+    
+
+</body>
+</html>
